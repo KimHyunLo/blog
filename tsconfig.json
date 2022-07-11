@@ -6,6 +6,10 @@
     "strict": true,
     "esModuleInterop": true,
     "types": ["react/next", "react-dom/next"],
-    "noImplicitAny": true
-  }
+    "noImplicitAny": true,
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
