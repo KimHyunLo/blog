@@ -1,15 +1,12 @@
 .nav {
   padding: 2em;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0rem 5em 1em rgb(26, 26, 26);
+  background-color: transparent;
+  box-shadow: 0 0rem 5em 1em rgb(44, 44, 44);
+  text-align: center;
 }
 
 .navItem {
   font-size: 1.4em;
   margin: auto 3rem;
   color: white;
-}
-
-.navItem:hover {
-  color: yellow;
 }
