@@ -6,8 +6,6 @@ export default function PostList() {
   return (
     <div className={styles.PostList}>
       <Post />
-      <Post />
-      <Post />
     </div>
   );
 }
