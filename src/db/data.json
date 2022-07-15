@@ -34,5 +34,8 @@
       "content": "하하하",
       "date": "2022/07/15"
     }
-  ]  
+  ],
+  "category": [
+    "react", "vue", "php"
+  ]
 }

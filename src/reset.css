@@ -45,5 +45,19 @@ a {
 	color: blaCK;
 }
 a:hover{
-  color: green;
+  color: var(--main--color);
+}
+input {
+	outline-style: none;
+}
+button {
+  background-color: transparent;
+	cursor: pointer;
+}
+:root {
+	--main--color: green;
+}
+::selection {
+	background-color: var(--main--color);
+	color: white;
 }
