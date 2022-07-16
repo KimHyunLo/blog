@@ -5,6 +5,7 @@ import Main from "../Main/Main";
 import EmptyPage from "../../EmptyPage";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
+import Blog from "../Blog/Blog";
 
 export default function App() {
   return (
@@ -12,7 +13,9 @@ export default function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Main/>}></Route>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
+          <Route path="/blog/:category" element={<Blog />}></Route>
           <Route path="*" element={<EmptyPage />}></Route>
         </Routes>
         <Footer />

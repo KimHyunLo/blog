@@ -11,7 +11,7 @@ export default function Main(): JSX.Element {
         <img src={mainIMG} alt="mainIMG" />
       </div>
       <Category />
-      <PostList />
+      <PostList tag="" />
     </>
   );
 }
