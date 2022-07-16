@@ -14,14 +14,7 @@
   border-bottom: 0.1em solid var(--main--color);
   font-size: 1.5em;
   width: 15em;
-  padding: 0.1 0.3em;
-  letter-spacing: 0.05em;
-}
-
-.search input:focus {
-  position: relative;
-  padding-bottom: 0.4em;
-  transition: padding 0.3s;
+  padding: 0.1em 0.2em;
 }
 
 .search button {

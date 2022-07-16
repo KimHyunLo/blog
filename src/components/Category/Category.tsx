@@ -29,7 +29,7 @@ export default function Category() {
     <div>
       <div className={styles.tags}>
         <form onSubmit={onSubmit} className={styles.search}>
-          <input type="text" ref={tagRef} />
+          <input type="text" maxLength={20} ref={tagRef} />
           <button>
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
