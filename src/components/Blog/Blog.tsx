@@ -4,15 +4,19 @@ import Category from "../Category/Category";
 import PostList from "../PostList/PostList";
 
 export default function Blog() {
-  let category = useParams<{ category: string }>().category;
+  let tag: string = "";
+  const category = useParams<{ category: string }>().category;
+
   if (category === undefined) {
-    category = "";
+    tag = "";
+  } else {
+    tag = category;
   }
 
   return (
     <div>
       <Category />
-      <PostList tag={category} />
+      <PostList tag={tag} />
     </div>
   );
 }

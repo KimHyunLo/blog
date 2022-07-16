@@ -13,7 +13,6 @@ export default function PostList(tag: IProps) {
     category = `?category=${tag.tag}`;
   }
   const posts: IPOST[] = useFetch(`http://localhost:3001/post${category}`);
-  console.log(posts);
 
   return (
     <div className={styles.PostList}>
