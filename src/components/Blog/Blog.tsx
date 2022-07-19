@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Category from "../Category/Category";
 import PostList from "../PostList/PostList";
 
 export default function Blog() {
@@ -15,7 +14,6 @@ export default function Blog() {
 
   return (
     <div>
-      <Category />
       <PostList tag={tag} />
     </div>
   );

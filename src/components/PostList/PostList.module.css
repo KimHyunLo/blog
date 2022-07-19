@@ -1,5 +1,32 @@
-.PostList {
+.postList {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRight {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  border: 0.1em solid var(--main--color);
+  padding: 1em;
+  width: 20em;
+  margin: 3em 2em 0 2em;
+}
+
+.search input{
+  border: none;
+  font-size: 1.5em;
+  width: 12em;
+}
+
+.search button {
+  border: none;
+  color: var(--main--color);
+  font-size: 1.5em;
+  margin: 0 0.5em;
 }
